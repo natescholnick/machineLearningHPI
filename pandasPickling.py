@@ -34,7 +34,7 @@ def grab_initial_state_data():
     pickle_out.close()
   
 # After run once the pickle file is generated  
-# grab_initial_state_data() 
+grab_initial_state_data() 
     
 pickle_in = open('fifty_states.pickle','rb') # rb = read bytes
 HPI_data = pickle.load(pickle_in)
