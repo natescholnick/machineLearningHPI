@@ -12,8 +12,9 @@ For SciPy:
 For quandl (enjoy my api_key lol):
 **pip install quandl
 
-The primary file to be executed is economicIndicatorsMachineLearning.py, which reads in the previously generated completeData.pickle.
-Either download that file and run immediately, or generate it as follows:
+### Download completeData.pickle and run economicIndicatorsMachineLearning.py
+
+**or
 
 ### Download api_key.txt and sp500.csv
 The S&P500 data is available free on Yahoo Finance.
@@ -24,7 +25,9 @@ This will generate fifty_states.pickle, fifty_states_step_pct_change.pickle, fif
 ### Run additionalData.py
 completeData.pickle is now generated and economicIndicatorsMachineLearning.py should run.
 
-As time goes on, the most likely culprit for hiccups, should you encounter any, will be pulling the data from Quandl and elsewhere. URLs change, column names change, data may be put behind a paywall, etc. Luckily, this will usually be an easy tweak.
+### Run economicIndicatorsMachineLearning.py
+
+*As time goes on, the most likely culprit for hiccups, should you encounter any, will be pulling the data from Quandl and elsewhere. URLs change, column names change, data may be put behind a paywall, etc. Luckily, this will usually be an easy tweak.
 
 
 
