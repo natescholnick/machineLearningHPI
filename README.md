@@ -7,14 +7,14 @@ The code can be built as follows:
 **make sure you have pip installed**
 
 For SciPy:
-**pip install scipy-stack
+**pip install scipy-stack**
 
 For quandl (enjoy my api_key lol):
-**pip install quandl
+**pip install quandl**
 
 ### Download completeData.pickle and run economicIndicatorsMachineLearning.py
 
-**or
+**or**
 
 ### Download api_key.txt and sp500.csv
 The S&P500 data is available free on Yahoo Finance.
