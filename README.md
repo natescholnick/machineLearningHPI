@@ -7,10 +7,14 @@ The code can be built as follows:
 **make sure you have pip installed**
 
 For SciPy:
-**pip install scipy-stack**
+```
+pip install scipy-stack
+```
 
 For quandl (enjoy my api_key lol):
-**pip install quandl**
+```
+pip install quandl
+```
 
 ## Download completeData.pickle and run economicIndicatorsMachineLearning.py
 
@@ -21,8 +25,12 @@ The S&P500 data is available free on Yahoo Finance.
 
 ## Run percentagePickles.py 
 This will generate fifty_states.pickle, fifty_states_step_pct_change.pickle, fifty_states_total_pct_change.pickle, and respective png files for their data.
-![Total Change, by percent](https://raw.githubusercontent.com/natescholnick/machineLearningHPI/master/fifty_states_total_pct_change.png)
-![Step Change, by percent](https://raw.githubusercontent.com/natescholnick/machineLearningHPI/master/fifty_states_step_pct_change.png)
+
+Total percentage change in state HPI over time
+![Total Change](https://raw.githubusercontent.com/natescholnick/machineLearningHPI/master/fifty_states_total_pct_change.png)
+
+Stepwise percentage change in state HPI over time
+![Step Change](https://raw.githubusercontent.com/natescholnick/machineLearningHPI/master/fifty_states_step_pct_change.png)
 
 
 ## Run additionalData.py
